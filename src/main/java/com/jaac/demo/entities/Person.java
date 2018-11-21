@@ -24,7 +24,6 @@ public class Person implements Serializable {
     @NotBlank
     private String lastName;
 
-    @NotBlank
     @Temporal(TemporalType.TIMESTAMP)
     private Date birthDate;
 
